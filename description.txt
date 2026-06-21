@@ -1,0 +1,26 @@
+Greek Lovers – Online Gyros Ordering System
+
+This project was created for the Digital Media and the Web course.
+
+Greek Lovers is an online ordering system that allows customers to customize their own pita and place an order for pickup.
+
+Main Features:
+
+• Greek Pita or Cypriot Pita selection
+• Meat selection
+• Multiple sauce selection
+• Multiple vegetable selection
+• Optional French fries
+• Optional drink selection
+• Customer information form
+• Pickup time selection
+• Payment method selection
+• Live total price calculation
+• Order summary page
+
+Technologies Used:
+
+• HTML
+• CSS
+• JavaScript
+

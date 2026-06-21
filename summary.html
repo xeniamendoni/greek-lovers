@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Order Summary - Greek Lovers</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="images/logo.png" alt="Greek Lovers Logo" class="logo">
+
+<h1>Order Summary</h1>
+
+<p>Review your order details.</p>
+
+</header>
+
+<section class="order">
+
+<h2>Your Order</h2>
+
+<div id="summaryContent">
+
+<p>Loading your order...</p>
+
+</div>
+
+<hr>
+
+<h2>Thank You!</h2>
+
+<p>
+
+Your order has been received and will be prepared for pickup.
+
+</p>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Greek Lovers - All Rights Reserved
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+
+document.getElementById(
+
+"newOrderButton"
+
+).addEventListener(
+
+"click",
+
+function(){
+
+localStorage.clear();
+
+window.location.href="index.html";
+
+}
+
+);
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,351 @@
+/* ---------- GENERAL ---------- */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f4f6f9;
+
+    text-align: center;
+
+    color: #333;
+
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+
+    background: linear-gradient(135deg,#1D3557,#274c77);
+
+    color: white;
+
+    padding: 40px 20px;
+
+}
+
+.logo {
+
+    width: 140px;
+
+    height: auto;
+
+    margin-bottom: 15px;
+
+}
+
+header h1 {
+
+    margin: 10px 0;
+
+    font-size: 42px;
+
+}
+
+header p {
+
+    font-size: 18px;
+
+}
+
+/* ---------- SECTIONS ---------- */
+
+section {
+
+    padding: 40px 20px;
+
+}
+
+/* ---------- ABOUT ---------- */
+
+.about p {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    line-height: 1.8;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+/* ---------- ORDER CARD ---------- */
+
+.order {
+
+    background: white;
+
+    max-width: 850px;
+
+    margin: 40px auto;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+
+}
+
+h2 {
+
+    color: #1D3557;
+
+    margin-top: 30px;
+
+}
+
+h3 {
+
+    color: #555;
+
+}
+
+/* ---------- INPUTS ---------- */
+
+input,
+
+select {
+
+    width: 80%;
+
+    max-width: 400px;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+}
+
+/* ---------- LABELS ---------- */
+
+label {
+
+    font-size: 17px;
+
+    line-height: 2;
+
+}
+
+/* ---------- TOTAL BOX ---------- */
+
+#liveTotal {
+
+    width: 200px;
+
+    margin: auto;
+
+    background: #1D3557;
+
+    color: white;
+
+    padding: 18px;
+
+    border-radius: 15px;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+}
+
+/* ---------- BUTTONS ---------- */
+
+button,
+
+#startButton {
+
+    background: #E63946;
+
+    color: white;
+
+    border: none;
+
+    padding: 18px 35px;
+
+    font-size: 20px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+button:hover,
+
+#startButton:hover {
+
+    background: #c92f3a;
+
+    transform: scale(1.05);
+
+}
+
+/* ---------- HORIZONTAL LINE ---------- */
+
+hr {
+
+    margin: 35px 0;
+
+    border: none;
+
+    border-top: 2px solid #ddd;
+
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    background: #1D3557;
+
+    color: white;
+
+    padding: 25px;
+
+    margin-top: 40px;
+
+}
+
+footer p {
+
+    margin: 5px;
+
+}
+
+/* ---------- START BUTTON ---------- */
+
+.start-order {
+
+    margin: 50px;
+
+}
+
+/* ---------- HIDE ORDER SECTION ---------- */
+
+#orderSection {
+
+    display: none;
+
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width:768px){
+
+    header h1{
+
+        font-size:30px;
+
+    }
+
+    .order{
+
+        margin:20px;
+
+        padding:25px;
+
+    }
+
+    input,
+
+    select{
+
+        width:95%;
+
+    }
+
+}
+
+/* ---------- RADIO & CHECKBOX FIX ---------- */
+
+input[type="radio"],
+input[type="checkbox"] {
+
+    width: auto;
+
+    margin-right: 10px;
+
+}
+
+label {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    width: auto;
+
+    line-height: 1.8;
+
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="time"] {
+
+    width: 80%;
+
+    max-width: 400px;
+
+}
+
+
+/* TOTAL BOX */
+
+.total-box{
+
+    background:#1D3557;
+
+    color:white;
+
+    width:250px;
+
+    margin:30px auto;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+
+}
+
+.total-box h2{
+
+    color:white;
+
+    margin-top:0;
+
+}
+
+.total-box #liveTotal{
+
+    background:none;
+
+    padding:0;
+
+    font-size:36px;
+
+}

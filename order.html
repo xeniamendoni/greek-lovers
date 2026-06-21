@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Build Your Order - Greek Lovers</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="images/logo.png" alt="Greek Lovers Logo" class="logo">
+
+<h1>Build Your Pita</h1>
+
+<p>Customize your pita and complete your order.</p>
+
+</header>
+
+<section class="order">
+
+<form id="orderForm">
+
+<!-- PITA -->
+
+<h2>Pita Type</h2>
+
+<label>
+
+<input type="radio" name="pita" value="Greek Pita" required>
+
+Greek Pita (€7.50)
+
+</label>
+
+<br>
+
+<label>
+
+<input type="radio" name="pita" value="Cypriot Pita" required>
+
+Cypriot Pita (€8.50)
+
+</label>
+
+<br><br>
+
+<!-- MEAT -->
+
+<h2>Meat</h2>
+
+<select name="meat" required>
+
+<option value="">Select Meat</option>
+
+<option value="Chicken (€0)">Chicken (€0)</option>
+<option value="Pork (+€0.50)">Pork (+€0.50)</option>
+<option value="Beef (+€1.50)">Beef (+€1.50)</option>
+
+</select>
+
+<br><br>
+
+<!-- SAUCES -->
+
+<h2>Sauces</h2>
+
+<label>
+<input type="checkbox" name="sauces" value="Tzatziki">
+Tzatziki
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" name="sauces" value="Tyrokafteri">
+Tyrokafteri
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" name="sauces" value="Honey Mustard">
+Honey Mustard
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" name="sauces" value="Yogurt Sauce">
+Yogurt Sauce
+</label>
+
+<br><br>
+
+<!-- VEGETABLES -->
+
+<h2>Vegetables</h2>
+
+<label>
+<input type="checkbox" name="vegetables" value="Tomato">
+Tomato
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" name="vegetables" value="Cucumber">
+Cucumber
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" name="vegetables" value="Lettuce">
+Lettuce
+</label>
+
+<br><br>
+
+<!-- FRIES -->
+
+<h2>French Fries</h2>
+
+<label>
+
+<input type="radio" name="fries" value="Yes (+€2.00)" required>
+
+Yes (+€2.00)
+
+</label>
+
+<label>
+
+<input type="radio" name="fries" value="No" required>
+
+No
+
+</label>
+
+<br><br>
+
+<!-- DRINK -->
+
+<h2>Drink</h2>
+
+<select name="drink">
+
+<option value="No">No Drink</option>
+
+<option value="Water (€1.00)">Water (€1.00)</option>
+
+<option value="Apple Juice (€2.50)">Apple Juice (€2.50)</option>
+
+<option value="Orange Juice (€2.50)">Orange Juice (€2.50)</option>
+
+<option value="Coca-Cola (€2.50)">Coca-Cola (€2.50)</option>
+
+<option value="Seven Up (€2.50)">Seven Up (€2.50)</option>
+
+</select>
+
+<br><br>
+
+<hr>
+
+<!-- CUSTOMER INFORMATION -->
+
+<h2>Customer Information</h2>
+
+<input type="text" name="fullName" placeholder="Full Name" required>
+
+<br><br>
+
+<input type="tel" name="phone" placeholder="Phone Number" required>
+
+<br><br>
+
+<input type="email" name="email" placeholder="Email Address" required>
+
+<br><br>
+
+<label>
+
+Pickup Time
+
+</label>
+
+<br>
+
+<input type="time" name="pickupTime" required>
+
+<br><br>
+
+<hr>
+
+<div class="total-box">
+
+<h2>Current Total</h2>
+
+<p id="liveTotal">€0.00</p>
+
+</div>
+
+<br>
+
+<button type="submit">
+
+Continue to Payment
+
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Greek Lovers - All Rights Reserved
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
